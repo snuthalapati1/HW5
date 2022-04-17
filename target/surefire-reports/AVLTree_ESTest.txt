@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: AVLTree_ESTest
 -------------------------------------------------------------------------------
-Tests run: 29, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.323 sec <<< FAILURE!
-test23(AVLTree_ESTest)  Time elapsed: 0.039 sec  <<< ERROR!
+Tests run: 22, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.356 sec <<< FAILURE!
+test20(AVLTree_ESTest)  Time elapsed: 0.037 sec  <<< ERROR!
 java.lang.StackOverflowError
 	at AVLTree.delete(AVLTree.java:59)
 	at AVLTree.delete(AVLTree.java:62)
@@ -1029,10 +1029,10 @@ java.lang.StackOverflowError
 	at AVLTree.delete(AVLTree.java:62)
 	at AVLTree.delete(AVLTree.java:62)
 
-test19(AVLTree_ESTest)  Time elapsed: 0.042 sec  <<< ERROR!
+test13(AVLTree_ESTest)  Time elapsed: 0.039 sec  <<< ERROR!
 java.lang.StackOverflowError
+	at org.evosuite.runtime.LoopCounter.checkLoop(LoopCounter.java:101)
 	at AVLTree.insert(AVLTree.java:46)
-	at AVLTree.insert(AVLTree.java:49)
 	at AVLTree.insert(AVLTree.java:51)
 	at AVLTree.insert(AVLTree.java:49)
 	at AVLTree.insert(AVLTree.java:51)
