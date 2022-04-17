@@ -1,11 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: AVLTree_ESTest
 -------------------------------------------------------------------------------
-Tests run: 22, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.356 sec <<< FAILURE!
-test20(AVLTree_ESTest)  Time elapsed: 0.037 sec  <<< ERROR!
+Tests run: 22, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.338 sec <<< FAILURE!
+test20(AVLTree_ESTest)  Time elapsed: 0.041 sec  <<< ERROR!
 java.lang.StackOverflowError
+	at org.evosuite.runtime.LoopCounter.checkLoop(LoopCounter.java:101)
 	at AVLTree.delete(AVLTree.java:59)
-	at AVLTree.delete(AVLTree.java:62)
 	at AVLTree.delete(AVLTree.java:62)
 	at AVLTree.delete(AVLTree.java:62)
 	at AVLTree.delete(AVLTree.java:62)
